@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# SSH Hardening Script for Raspberry Pi
+# SSH Hardening Script for SSH server
 
 # Define the new SSH port (change this if you want a different port)
 NEW_SSH_PORT=2222
