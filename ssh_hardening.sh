@@ -5,6 +5,10 @@
 # Define the new SSH port (change this if you want a different port)
 NEW_SSH_PORT=2222
 
+# Updating packages
+echo "Updating your system..." 
+sudo apt update && sudo apt upgrade
+
 # Backup the current sshd_config before making changes
 echo "Backing up current sshd_config..."
 sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
