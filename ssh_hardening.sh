@@ -54,5 +54,5 @@ sudo systemctl restart fail2ban
 # Output status messages
 echo "All done! Your SSH server has been hardened."
 echo "Your new SSH port is $NEW_SSH_PORT."
-echo "Use the following command to connect to your Raspberry Pi from now on:"
-echo "ssh -p $NEW_SSH_PORT pi@<your-pi-ip>"
+echo "Use the following command to connect to your server from now on:"
+echo "ssh -p $NEW_SSH_PORT server@<your-server>"
