@@ -4,10 +4,10 @@
 
 echo "Establishing connection..." 
 
-USERNAME=your_username
+USERNAME=your_host
 IP=your_ip
 
-if ssh ${USERNAME}@${IP}; then
+if ssh -p 2222 ${USERNAME}@${IP}; then
         echo "Success! " 
 else 
         echo "Failed to connect. Please check your SSH config"
