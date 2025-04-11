@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Connect to a remote ssh server 
+
+echo "Establishing connection..." 
+
+USERNAME=your_username
+IP=your_ip
+
+if ssh ${USERNAME}@${IP}; then
+        echo "Success! " 
+else 
+        echo "Failed to connect. Please check your SSH config"
+fi
+
+
+
